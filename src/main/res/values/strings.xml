@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CowsNBulls</string>
+    <string name="title_activity_main">CowsNBulls</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_text_message">4-digit number</string>
+    <string name="play_button">Go</string>
+
+</resources>
