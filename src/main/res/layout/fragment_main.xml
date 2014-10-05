@@ -10,12 +10,15 @@
     tools:context=".MainActivity$PlaceholderFragment">
 
     <ListView
-        android:layout_width="346dp"
-        android:layout_height="383dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/listview_guesses"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/guessed_number"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:longClickable="false" />
 
     <EditText
         android:id="@+id/guessed_number"
@@ -25,6 +28,7 @@
         android:layout_toLeftOf="@+id/button_go"
         android:hint="@string/edit_text_message"
         android:inputType="phone"
+        android:imeOptions="flagNoExtractUi"
         android:maxLength="4"
         android:padding="8dp" />
 
@@ -35,8 +39,8 @@
         android:layout_gravity="right"
         android:enabled="true"
         android:id="@+id/button_go"
-        android:layout_alignBottom="@+id/guessed_number"
-        android:layout_alignRight="@+id/listview_guesses"
-        android:layout_alignEnd="@+id/listview_guesses" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

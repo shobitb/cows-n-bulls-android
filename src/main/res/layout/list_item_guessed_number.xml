@@ -3,9 +3,9 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:minHeight="40dp"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
     android:gravity="center"
-    android:textSize="20dp"
     android:id="@+id/guess">
 
 </TextView>
